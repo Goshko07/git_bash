@@ -1,0 +1,43 @@
+1. Вероника@DESKTOP-7M6T933 MINGW64 ~ $ ls
+2. Вероника@DESKTOP-7M6T933 MINGW64 ~ $ mkdir test3
+3. Вероника@DESKTOP-7M6T933 MINGW64 ~ $ echo -e "row1\nrow2\nrow3\nrow4" > test3/4.txt
+Вероника@DESKTOP-7M6T933 MINGW64 ~ $ echo -e "row1\nrow2\nrow3\nrow4" > test3/5.txt
+Вероника@DESKTOP-7M6T933 MINGW64 ~ $ echo -e "row1\nrow2\nrow3\nrow4" > test3/6.txt
+4. Вероника@DESKTOP-7M6T933 MINGW64 ~ $ grep "row2" test3/5.txt
+5. Вероника@DESKTOP-7M6T933 MINGW64 ~ $ grep "row" test3/*
+6. Вероника@DESKTOP-7M6T933 MINGW64 ~ $ grep -c "row" test3/6.txt
+7. Вероника@DESKTOP-7M6T933 MINGW64 ~ $ find test3 -name "5.txt"
+8. Вероника@DESKTOP-7M6T933 MINGW64 ~ $ find test3 -name "5.txt" -exec rm {} \;
+9. Вероника@DESKTOP-7M6T933 MINGW64 ~ $ echo "test" >> test3/4.txt
+10. Вероника@DESKTOP-7M6T933 MINGW64 ~ $ sed -i 's/test/fail/g' test3/4.txt
+11. Вероника@DESKTOP-7M6T933 MINGW64 ~ $ echo "test" >> test3/4.txt
+12. Вероника@DESKTOP-7M6T933 MINGW64 ~ $ ps aux
+13. Вероника@DESKTOP-7M6T933 MINGW64 ~ $ kill 666
+14. Вероника@DESKTOP-7M6T933 MINGW64 ~ $  ping rusau.net
+15. Вероника@DESKTOP-7M6T933 MINGW64 ~ $ ping -c 5 rusau.net
+16. Вероника@DESKTOP-7M6T933 MINGW64 ~ $ curl -X GET "https://petstore.swagger.io/v2/pet/findByStatus?status=available"
+
+
+17. Вероника@DESKTOP-7M6T933 MINGW64 ~ $ curl -X POST "https://petstore.swagger.io/v2/pet" -H "Content-Type: application/json" -d '{
+  "id": 0,
+  "category": {
+    "id": 1,
+    "name": "Dogs"
+  },
+  "name": "doggie",
+  "photoUrls": [
+    "https://example.com/doggie.jpg"
+  ],
+  "tags": [
+    {
+      "id": 1,
+      "name": "cute"
+    }
+  ],
+  "status": "available"
+}'
+
+
+{"id":9223372036854775265,"category":{"id":1,"name":"Dogs"},"name":"doggie","photoUrls":["https://example.com/doggie.jpg"],"tags":[{"id":1,"name":"cute"}],"status":"available"}
+
+

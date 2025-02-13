@@ -1,0 +1,30 @@
+1. Вероника@DESKTOP-7M6T933 MINGW64 ~ $ ls
+2. Вероника@DESKTOP-7M6T933 MINGW64 ~ $ pwd
+3. Вероника@DESKTOP-7M6T933 MINGW64 ~ $ mkdir test1
+4. Вероника@DESKTOP-7M6T933 MINGW64 ~ $ cd test1
+5. Вероника@DESKTOP-7M6T933 MINGW64 ~ $ touch 1.txt 2.txt 3.txt
+6. Вероника@DESKTOP-7M6T933 MINGW64 ~ $ ls
+1.txt	2.txt	3.txt
+7. Вероника@DESKTOP-7M6T933 MINGW64 ~ $ cd ~
+8. Вероника@DESKTOP-7M6T933 MINGW64 ~ $ mkdir test2
+9. Вероника@DESKTOP-7M6T933 MINGW64 ~ $ rmdir test2
+10. Вероника@DESKTOP-7M6T933 MINGW64 ~ $ cd test1
+Вероника@DESKTOP-7M6T933 MINGW64 ~ $ rm 2.txt
+11. Вероника@DESKTOP-7M6T933 MINGW64 ~ $ mkdir test3
+12. Вероника@DESKTOP-7M6T933 MINGW64 ~ $ cd test3
+Вероника@DESKTOP-7M6T933 MINGW64 ~ $ touch 1.txt 2.txt
+13. Вероника@DESKTOP-7M6T933 MINGW64 ~ $ rm -r test3
+14. Вероника@DESKTOP-7M6T933 MINGW64 ~ $ mkdir test4
+15. Вероника@DESKTOP-7M6T933 MINGW64 ~ $ mv ~/test1/1.txt ~/test4/
+Вероника@DESKTOP-7M6T933 MINGW64 ~ $ mv ~/test1/3.txt ~/test4/
+16. Вероника@DESKTOP-7M6T933 MINGW64 ~ $ cd test4
+Вероника@DESKTOP-7M6T933 MINGW64 ~ $ echo "line" > 1.txt
+Вероника@DESKTOP-7M6T933 MINGW64 ~ $ echo "line" >> 1.txt
+Вероника@DESKTOP-7M6T933 MINGW64 ~ $ echo "line" >> 1.txt
+17. Вероника@DESKTOP-7M6T933 MINGW64 ~ $ cat 1.txt
+18. Вероника@DESKTOP-7M6T933 MINGW64 ~ $ echo "line" > 3.txt
+Вероника@DESKTOP-7M6T933 MINGW64 ~ $ echo "line" >> 3.txt
+Вероника@DESKTOP-7M6T933 MINGW64 ~ $ echo "line" >> 3.txt
+19. Вероника@DESKTOP-7M6T933 MINGW64 ~ $ cat 1.txt 3.txt
+20. Вероника@DESKTOP-7M6T933 MINGW64 ~ $ nano 1.txt
+
